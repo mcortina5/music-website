@@ -1,22 +1,36 @@
 h1{
-    color: rgb(214, 230, 255);
+    color: rgb(255, 255, 255);
 }
 h2{
-    color: rgb(237, 230, 255);
+    color: rgb(42, 36, 59);
+    background-color: rgba(255, 207, 168, 0.404);
+
 }
 h3{
     color: rgb(255, 255, 255);
-    background-color: rgba(230, 175, 218, 0.322);
+    background-color: rgba(255, 197, 231, 0.575);
+}
+h3{
+    color: rgb(0, 0, 0);
 }
 table, th, td {
-    border: 1px solid black;
+    border: 3px solid rgb(255, 255, 255);
     background-color: rgba(236, 222, 243, 0.534);
+}
+form{
+    background-color: rgba(241, 237, 227, 0.418);
+    width: 400px;
+    border: 3px solid rgb(255, 255, 255);
 }
 
 body{
-    background-image:url('https://imageio.forbes.com/specials-images/imageserve/64a82491834805230191cf1d/Night-Two---Taylor-Swift---The-Eras-Tour---Nashville--TN/0x0.jpg?format=jpg&crop=1899,1424,x0,y242,safe&width=960') ;
+    background-image:url('https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Ffafbef2d-6e7f-4194-bccb-1a65620870ca.jpg?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1') ;
 
 background-repeat: no-repeat; 
 background-attachment: fixed;
 background-size: cover; 
+}
+label{
+    color: rgb(37, 36, 34);
+    background-color: rgba(255, 255, 255, 0.63);
 }
